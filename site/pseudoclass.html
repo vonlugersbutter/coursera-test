@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psudo-class selectors</title>
+    <title>Pseudo-class selectors</title>
 
     <style>
         header li {
@@ -24,6 +24,14 @@
         a:hover, a:active {
             background-color: red;
             color: purple;
+        }
+
+        header li:nth-child(3) {
+            font-size: 24px;
+        }
+
+        section div:nth-child(odd) {
+            background-color: grey;
         }
 
     </style>
